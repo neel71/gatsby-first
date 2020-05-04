@@ -1,0 +1,64 @@
+._img{
+    background-image: url(../../static/contact.jpg);
+}
+
+.text{
+
+    top: 40%;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+}
+
+.text__{
+
+    top: 40%;
+    text-align: center;
+    color: black;
+    font-family: montserrat;
+    font-size: 23px;
+    word-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.sec{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 10px;
+}
+.sec_l{
+    width: 50%;
+    
+    padding-left: 150px;
+}
+.sec_r{
+    width: 50%;  
+}
+.p_tag{
+    color: #081C79;
+    font-family: "Lato", Sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    word-spacing: -2px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.form_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-size: 18px;
+    font-family: poppins;
+}

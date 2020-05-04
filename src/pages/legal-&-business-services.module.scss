@@ -1,0 +1,68 @@
+.common{
+    height: 400px;
+    // border: 1px solid red;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.common:hover{
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
+}
+.heading{
+    color: #323850;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Lato, Poppins;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+}
+
+.body{
+    // color: #7a7a7a;
+    color: #696969;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.interested_button{
+    font-weight: 600;
+    background-color: #C0C0C0;
+    text-decoration:none;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border:1px solid #C0C0C0;
+}
+.interested_button:hover{
+    text-decoration:none;
+    color:white;
+    font-weight: 800;
+    background-color: black;
+    border:1px solid black;
+
+}
+
+.pera__{
+    
+    font-size: 25px;
+    font-family:montserrat;
+                // fontWeight: 'bold',
+    margin:30px;
+    // color:#696969;
+    color:#2F4F4F;
+    padding-bottom: 25px;
+    // text-shadow: 'rgba(0, 0, 0, 0.5) 0px 10px 12px'
+}
+.pera__head{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin:30px 0px 10px 0px;
+    color:#323850;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+}

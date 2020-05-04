@@ -1,0 +1,298 @@
+.sample{
+    color:white;
+                                text-decoration: none;
+                                font: 25px;
+}
+
+.nav_class{
+    background-color: #48328c;
+    opacity:'0.6';
+    color: white;
+    // min-width: 1025px;
+    margin-top: 55px;
+    border-radius: 50px;
+    height: 40px;
+    padding: 0;
+}
+
+.sec1_p{
+    color: #292929;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+    margin: 0px 0px 60px 0px;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sec1{
+    max-width: 1140;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.allSides
+{
+width:470px;height:370px;
+background-color: white;
+// box-shadow: 0 0 10px rgba(0,0,0,0.6);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+// box-shadow: 0 0 15px -2px #444444;
+box-shadow: 0px 0px 40px -15px #888888;
+}
+
+.item{
+    padding: 50px 30px 50px 30px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.item:hover{
+    box-shadow: 0px 10px 60px 0px rgba(85,128,255,0.2);
+    -moz-box-shadow: 0 0 10px rgba(127, 129, 252, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    // box-shadow: 0 0 15px -2px #444444;
+    box-shadow: 0px 0px 40px -15px rgba(85,128,255,0.2); 
+}
+
+.item:hover .header{
+    color:black;
+}
+.header{
+    color: #58468c;
+    font-family: "Poppins", Sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.body{
+    color: #716c80;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.learn_more{
+    text-decoration:none;
+     color:white;
+    // background-color: yellow;
+}
+
+.learn_more:hover{
+    text-decoration:none;
+    color:white;
+    // background-color: black;
+}
+
+.Rbutton{
+    height: 60px;
+    text-align: center;
+    width: 200px;
+    /* padding: 24px 39px 24px 39px; */
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+    background-color: #7954fd;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    // border-color: #fac400;
+    border-radius: 102px;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rbutton:hover{
+    text-decoration: none;
+    // border-color: black;
+    background-color: #48328c;
+    color:white;
+    
+}
+
+.sec_header{
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_:hover .cardHeader{
+    color: #2575fc;
+}
+.cardHeader{
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 17px;
+    padding-top: 10px;
+}
+.cardBody{
+    margin: 0px 0px 14px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 37px;
+    font-size: 17px;
+}
+
+
+.common{
+    height: 410px;
+    // border: 1px solid red;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.common:hover{
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
+}
+.heading{
+    color: #323850;
+    // text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Lato, Poppins;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+}
+.modal_heading{
+    color: #323850;
+    // text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Lato, Poppins;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+}
+.body{
+    // color: #7a7a7a;
+    color: #696969;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    // text-align: justify;
+}
+
+.interested_button{
+    font-weight: 600;
+    background-color: #C0C0C0;
+    text-decoration:none;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border:1px solid #C0C0C0;
+    
+    
+}
+.interested_button:hover{
+    text-decoration:none;
+    color:white;
+    font-weight: 800;
+    background-color: black;
+    border:1px solid black;
+
+}
+
+.read_button{
+    font-weight: 600;
+    background-color:black;
+    text-decoration:none;
+    color:white;
+    padding: 11px 23px;
+    border-radius: 8px;
+    border:1px solid black;
+}
+.read_button:hover{
+    text-decoration:none;
+    color:black;
+    font-weight: 800;
+    background-color: #C0C0C0;
+    border:1px solid #C0C0C0;
+
+}
+
+
+.pera__{
+    
+    font-size: 25px;
+    font-family:montserrat;
+                // fontWeight: 'bold',
+    margin:30px;
+    // color:#696969;
+    color:#2F4F4F;
+    padding-bottom: 25px;
+    // text-shadow: 'rgba(0, 0, 0, 0.5) 0px 10px 12px'
+}
+.pera__head{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin:30px 0px 10px 0px;
+    color:#323850;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+}
+
+
+.list{
+    //   display:none;
+    //  margin-top: -95px;
+    text-align: left;
+    margin-top: 30px;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    // text-shadow: rgba(107, 70, 245, 0.5) 0px 10px 12px;
+    // color:#ec546b;
+    color:#323850;
+}
+// .sectionbackground{
+//     background: url(../../static/content_writing.jpg) center center;
+//     background-repeat: no-repeat;
+//     height: auto;
+// }
+
+.div1{
+    padding: 20px 20px 10px 45px;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: "poppins", Sans-serif;
+}
+
+.div1:hover{
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
+}
+
+.Far_m{
+    color: #656565;
+    font-size: 17px;
+    margin: 0px 0px 35px 0px;
+    font-family: poppins;
+    text-align: justify;
+}
+.F_head{
+    color: #323850;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.F_head:hover{
+    color:black;
+}

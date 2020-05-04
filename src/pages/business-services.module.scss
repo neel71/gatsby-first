@@ -1,0 +1,135 @@
+
+.Rbutton{
+    height: 60px;
+    text-align: center;
+    width: 200px;
+    /* padding: 24px 39px 24px 39px; */
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #110729;
+    background-color: #fac400;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #fac400;
+    border-radius: 102px;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rbutton:hover{
+    text-decoration: none;
+    border-color: black;
+    background-color: black;
+    color:white;
+    
+}
+
+.header{
+    color:black;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+.hover_class:hover .header{
+    color: yellow;
+}
+
+.body{
+    margin: 0px 0px 14px 0px;
+    color: #565656;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.learn_more{
+    text-decoration:none;
+     color:#110729;
+    // background-color: yellow;
+}
+
+.learn_more:hover{
+    text-decoration:none;
+    color:white;
+    // background-color: black;
+}
+
+
+.item{
+    padding: 50px 30px 50px 30px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 40px -15px rgba(235,237,239,0.3); 
+    background-color: white;
+}
+.item:hover{
+    // box-shadow: 0px 10px 60px 0px rgba(85,128,255,0.2);
+    // -moz-box-shadow: 0 0 10px rgba(127, 129, 252, 0.6);
+    // -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    // // box-shadow: 0 0 15px -2px #444444;
+    // box-shadow: 0px 0px 40px -15px rgba(85,128,255,0.2); 
+    box-shadow: 30px 30px 60px 0px rgba(0, 0, 0, 0.3);
+}
+
+.item:hover .header___{
+    color:yellow;
+}
+.header___{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.body___{
+    color: #716c80;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    background-color:grey;
+}
+.icon:hover{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.headerHeight{
+    height:"110px";
+}
+
+.nav_class{
+    background-color: black;
+    color: white;
+    // min-width: 1025px;
+    margin-top: 55px;
+    border-radius: 50px;
+    height: 40px;
+    padding: 0;
+}
+.nav_item{
+    color:white;
+    text-decoration: none;
+}
+.nav_item:hover{
+    color:#bde22b;
+    text-decoration: none;
+}
+.activeNavItem{
+    color: white;
+}
+.a{
+    color:white;
+}
+.a > .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+}

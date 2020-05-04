@@ -1,0 +1,475 @@
+<section>
+            <div style={{textAlign:'center'}} className={msStyle.sec1}>
+                <p className={msStyle.sec1_p}>Your Career Path Begins Here</p>
+            </div>
+            <div>
+                <Row style={{paddingLeft:'150px',paddingRight:'150px',paddingBottom:'25px'}}>
+
+                    <Col md="3" style={{textAlign:'center',}}>
+                        <div className={msStyle.item}>
+                            <div>
+                                <img src={'../../aff_.PNG'}/> 
+                            </div>
+                            <div className={msStyle.header}>
+                                <p>Affordability</p>
+                            </div>
+                            <div>
+                                <p className={msStyle.body}>Eam animal cons incorupte Close Princip deos</p>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col md="3" style={{textAlign:'center'}}>
+                        <div  className={msStyle.item}>
+                            <div>
+                                <img src={'../../acc_.PNG'}/>
+                            </div>
+                            <div>
+                                <p className={msStyle.header}>Accreditation</p>
+                            </div>
+                            <div>
+                                <p className={msStyle.body}>Eam animal cons incorupte Close Princip deos</p>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col md="3" style={{textAlign:'center'}}>
+                        <div  className={msStyle.item}>
+                            <div>
+                                <img src={'../../sch_.PNG'}/>
+                            </div>
+                            <div>
+                                <p className={msStyle.header}>School Programs</p>
+                            </div>
+                            <div>
+                                <p className={msStyle.body}>Eam animal cons incorupte Close Princip deos</p>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col md="3" style={{textAlign:'center'}}>
+                        <div  className={msStyle.item}>
+                            <div>
+                                <img src={'../../tra_.PNG'}/>   
+                            </div>
+                            <div>
+                                <p className={msStyle.header}>Track Record</p>
+                            </div>
+                            <div>
+                                <p className={msStyle.body}>Eam animal cons incorupte Close Princip deos</p>
+                            </div>
+                        </div>
+                    </Col>
+
+                </Row>
+            </div>
+            <section style={{paddingLeft:'150px',paddingRight:'150px',paddingBottom:'150px'}}>
+                <div style={{width:'100%', display:'flex'}}>
+                
+                    <div style={{width:'45%'}}>
+                        <p
+                            style={{
+                                color: '#58468c',
+                                fontFamily: 'Roboto, Sans-serif',
+                                fontSize: '23px',
+                                fontWeight: '700',
+                                margin: '0px 0px 50px 0px',
+                            }}
+                        >
+                            Care About Us
+                        </p>
+                        <p
+                            style={{
+                                color: '#292929',
+                                textShadow: '0px 0px 0px rgba(0,0,0,0.3)',
+                                margin: '0px 0px 025px 0px',
+                                fontFamily: 'Poppins, Sans-serif',
+                                fontSize: '30px',
+                                fontWeight: '700',
+                            }}
+                        >
+                            Where Learning Begin 
+                        </p>
+                        <p 
+                            style={{ color: 'grey',
+                                fontFamily: 'Roboto, Sans-serif',
+                                fontSize: '17px',
+                                fontWeight: '100',
+                                margin: '0px 0px 50px 0px',}}
+                        >
+                            Building a strong sense of community in Greenville school
+                            Community - Building Approaches
+                        </p>
+                        <div>
+                            <p
+                                style={{
+                                color: '#292929',
+                                textShadow: '0px 0px 0px rgba(0,0,0,0.3)',
+                                margin: '0px 0px 025px 0px',
+                                fontFamily: 'Poppins, Sans-serif',
+                                fontSize: '30px',
+                                fontWeight: '700',
+                            }}
+                            >Best Security Services</p>
+                            <p
+                                style={{ color: '#58468c',
+                                fontFamily: 'Roboto, Sans-serif',
+                                fontSize: '17px',
+                                fontWeight: '100',
+                                margin: '0px 0px 50px 0px',}}
+                            >Our best-in-class WordPress solution, with additions optiz ation to make</p>
+                        </div>
+                        <div>
+                            <p
+                                 style={{
+                                color: '#292929',
+                                textShadow: '0px 0px 0px rgba(0,0,0,0.3)',
+                                margin: '0px 0px 025px 0px',
+                                fontFamily: 'Poppins, Sans-serif',
+                                fontSize: '30px',
+                                fontWeight: '700',}} 
+                            >Online info Services</p>
+
+                            <p
+                                style={{color: '#58468c',
+                                fontFamily: 'Roboto, Sans-serif',
+                                fontSize: '17px',
+                                fontWeight: '100',
+                                margin: '0px 0px 50px 0px',}}
+                            >Our best-in-class WordPress solution, with additions optiz ation to make</p> 
+                        </div>
+
+                        <div>
+                           
+                            <p
+                                style={{width: '240px'}}
+                                className={msStyle.Rbutton}
+                            ><Link to="//marketing-communication" className={msStyle.learn_more}>Learn More</Link></p>
+                        </div>
+                    </div>
+                    <div style={{width:'55%'}}>
+                        <img src={'../../Education-Schoogalleryl.png'}
+                            style={{
+                                height:'800px',
+                                width:'850px'
+                            }}
+
+                        />
+                    </div>
+                </div>
+            </section>
+            
+            <section style={{paddingBottom:'25px'}}>
+                
+                <div 
+                    style={{
+                        backgroundColor: '#000000',
+                        opacity: '0.6',
+                        transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
+                        minHeight: '532px',
+                        textAlign:'center',
+                        zIndex:'99999'
+                    }}
+                >
+                    <p
+                        style={{
+                            color: '#ffffff',
+                            textShadow:'0px 0px 0px rgba(0,0,0,0.3)',
+                            margin: '0px 0px 015px 0px',
+                            fontFamily: 'Roboto, Sans-serif',
+                            fontSize: '45px',
+                            paddingTop:'100px',
+                            fontWeight: '700',
+                        }}
+                    >
+                        Opening Schedule
+                    </p>
+                    <p
+                        style={{
+                                color: '#ffffff',
+                                textShadow:'0px 0px 0px rgba(0,0,0,0.3)',
+                                margin: '0px 0px 015px 0px',
+                                fontFamily: 'Roboto, Sans-serif',
+                                fontSize: '20px',
+                                fontWeight: '100',
+                                paddingTop: '15px',
+                            }}
+                    >
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise
+                    </p>
+                </div>
+            </section>
+
+            <section style={{paddingLeft:'150px',paddingRight:'150px',paddingBottom:'150px',backgroundColor: '#f2f3f6'}}>
+                
+            <Row style={{
+                marginTop:'-210px',
+                backgroundColor: '#f2f3f6'
+            }}>
+                    <Col md="4"
+                         style={{
+                            // border:'1px solid red',
+                                padding: '60px 45px 60px 45px',
+                                backgroundColor: '#4f5fcd',
+                                textAlign:'left'
+                         }}
+                    >
+                        <div>
+                            {/* <FrontAwesomeIcon ></FrontAwesomeIcon> */}
+                            <FontAwesomeIcon icon={faClock} 
+                                style={{
+                                    height:'60px',width:'60px'
+                                }}
+                             />
+                        </div>
+                        <div>
+                            <p className={msStyle.sec_header}
+                                
+                            >
+                                Opening Time
+                            </p>
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    borderBottom:'1px solid rgba(255,255,255,0.11)',
+                                    
+                                    borderBottom:'1px solid rgba(255,255,255,0.11)',
+                                    color: '#ffffff',
+                                    fontFamily: 'lato',
+                                    fontSize: '18px',
+                                    fontWeight: '200',
+                                    lineHeight: '28px',
+                                
+                                }}
+                            >Summer Hours</p>
+                            
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    borderBottom:'1px solid rgba(255,255,255,0.11)',
+                                    color: '#ffffff',
+                                    fontFamily: 'lato',
+                                    fontSize: '18px',
+                                    fontWeight: '200',
+                                    lineHeight: '28px',
+                                
+                                }}
+                            >Winter Hours</p>
+                            
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    borderBottom:'1px solid rgba(255,255,255,0.11)',
+                                    color: '#ffffff',
+                                    fontFamily: 'lato',
+                                    fontSize: '18px',
+                                    fontWeight: '200',
+                                    lineHeight: '28px',
+                                }}
+                            >Evening Hours</p>
+                            
+                        </div>
+                        <div></div>
+                    </Col>
+
+                    <Col md="4"
+                         style={{
+                                //  border:'1px solid red',
+                                 padding: '60px 45px 60px 45px',
+                                 backgroundColor: '#4d89e3',
+                                 textAlign:'left'
+                             }}
+                    >
+                        <div>
+                            <FontAwesomeIcon icon={faRing} 
+                                    style={{
+                                        height:'60px',width:'60px'
+                                    }}
+                                />
+                        </div>
+                        <div>
+                            <div>
+                                <p className={msStyle.sec_header}>Call for us !</p>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p
+                                    style={{
+                                        color: '#ffffff',
+                                        fontFamily: 'Roboto',
+                                        fontSize: '30px',
+                                        fontWeight: '700',
+                                        lineHeight: '28px',
+                                        paddingBottom:'15px'
+                                    }}
+                                >XXXXXXXXX</p>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    
+                                    color: '#ffffff',
+                                    fontFamily: 'lato',
+                                    fontSize: '20px',
+                                    fontWeight: '200',
+                                    lineHeight: '28px',
+                                
+                                }}
+                            >
+                                The search for eternal youth has to be a human imagination 
+                                since times accident the search for eternal .
+                            </p>
+                        </div>
+                    </Col>
+                    
+                    <Col md="4"
+                         style={{
+                                //  border:'1px solid red',
+                                 padding: '60px 45px 60px 45px',
+                                 backgroundColor: '#4aa8d9',
+                                 textAlign:'left'
+                             }}
+                    >
+                        <div>
+                            <FontAwesomeIcon icon={faMailBulk} 
+                                    style={{
+                                        height:'60px',width:'60px'
+                                    }}
+                                />
+                        </div>
+                        <div>
+                            <p className={msStyle.sec_header}>
+                                Subscribe Here
+                            </p>
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </Col>
+                </Row>
+    
+            </section>
+
+            <section style={{
+                padding:'40px 0px 70px 0px',
+                backgroundColor: '#f2f3f6'
+                }}>
+                
+                <div style={{textAlign:'center',paddingBottom:'100px'}}>
+                    <Row>
+                        <Col md="4"></Col>
+                        <Col md="4">
+                            <p
+                                style={{
+                                    color: '#292929',
+                                    textShadow:'0px 0px 0px rgba(0,0,0,0.3)',
+                                    margin: '0px 0px 060px 0px',
+                                    fontFamily: 'Roboto',
+                                    fontSize: '50px',
+                                    fontWeight: '700',
+                                }}
+                            >
+                                What do you want to learn today?
+                            </p>
+                        </Col>
+                        <Col md="4"></Col>
+                    </Row>
+
+                    <div style={{
+                        paddingLeft:'150px',paddingRight:'150px',paddingBottom:'150px'
+                    }}>
+                        <Row>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by
+                                         their place and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img-1.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title  className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by their place 
+                                        and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img-2.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by their place
+                                         and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+
+                        <Row style={{paddingTop:'40px'}}>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by
+                                         their place and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img-1.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title  className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by their place 
+                                        and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md="4">
+                                <Card style={{ width: '30rem' }} className={msStyle.card_}>
+                                    <Card.Img variant="top" src={'../../course_img-2.jpeg'} />
+                                    <Card.Body>
+                                        <Card.Title className={msStyle.cardHeader}>Your Complete Guide to Photography</Card.Title>
+                                        <Card.Text className={msStyle.cardBody}>
+                                        A small river named Duden flows by their place
+                                         and supplies it with the necessary
+                                        </Card.Text>
+                                        {/* <Button variant="primary">Go somewhere</Button> */}
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+
+            </section>
+                                    
+        </section>

@@ -7,7 +7,7 @@ import {Container} from 'react-bootstrap'
 
 const Layout = (props) =>{
     return(
-        <div>
+        <div style={{overflowX:'hidden'}}>
             <Header/>
 
             

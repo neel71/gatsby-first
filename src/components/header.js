@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row,Col,Nav, NavDropdown,Navbar } from 'react-bootstrap'
 // import { Search } from 'react-bootstrap-icons'
 import headerStyle from './header.module.scss'
-
+import PropTypes from "prop-types"
 // import { Dropdown, Menu } from 'semantic-ui-react'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCloudSunRain, faArrowDown,faArrowUp } from '@fortawesome/free-solid-svg-icons'
-const Header = () =>{
+const Header = ({ siteTitle }) =>{
    
    return(
       <header>
@@ -19,8 +19,8 @@ const Header = () =>{
               <Col md="3">
                <img src={'../../bb-logo.png'} 
                         style={{
-                           width:"394.10px", 
-                           height:"98.04px",
+                           width:"350.10px", 
+                           height:"89.04px",
                            paddingLeft:'10px',
                            
                            marginTop:"35px",
@@ -33,84 +33,59 @@ const Header = () =>{
                      <Nav className="justify-content-end" activeKey="/home"  style={{color:'white'}}>
                         <Nav.Item>
                            <Nav.Link style={{
-                              color:'white',
+                              color:'blue',
                            }}>
                               <Link to="/" className={headerStyle.nav_item}>HOME</Link>
                            </Nav.Link>
                         </Nav.Item>
+
                         <Nav.Item>
                            <Nav.Link style={{
-                              color:'white',
+                              color:'blue',
                            }}>
                               <Link to="#" className={headerStyle.nav_item}>PORTFOLIO</Link>
                            </Nav.Link>
                         </Nav.Item>
+
                         <NavDropdown title="SERVICES"
                            ClassName = {headerStyle.activeNavItem} 
                         style={{
-                              color:'white',
+                              color:'blue',
                               textDecoration: 'none',
                               font: '20px',
                            }}
                            >
 
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}>
-                           <Link to="/web-development" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Web Development</Link></NavDropdown.Item>
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/graphics-design" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Graphics Design</Link></NavDropdown.Item>
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/content-writing" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Content Writing</Link></NavDropdown.Item>
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/legal-&-business-services" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Legal & Business Services</Link></NavDropdown.Item>
-                           {/* <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/photography" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'16.5px',
-                           }}>Photography</Link></NavDropdown.Item>
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/video" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'16.5px',
-                           }}>Video</Link></NavDropdown.Item> */}
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}>
-                           <Link to="digital-marketing" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Digital Marketing</Link></NavDropdown.Item>
-                           <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}>
-                           <Link to="/event-management" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Event Management</Link></NavDropdown.Item>
-                           {/* <NavDropdown.Item style={{paddingTop:'15px',paddingBottom:'15px'}}><Link to="/training" style={{
-                              color:'black',
-                              textDecoration: 'none',
-                              fontWeight: 'bold',
-                              fontSize:'17.5px',
-                           }}>Training & Recruitment</Link></NavDropdown.Item> */}
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                               <Link to="/web-development" 
+                               className={headerStyle.sub_menu}>Web Development</Link>
+                           </NavDropdown.Item>
+
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                              <Link to="/graphics-design" 
+                              className={headerStyle.sub_menu}>Graphics Design</Link>
+                           </NavDropdown.Item>
+
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                              <Link to="/content-writing" 
+                              className={headerStyle.sub_menu}>Content Writing </Link>
+                           </NavDropdown.Item>
+
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                              <Link to="/legal-&-business-services" 
+                              className={headerStyle.sub_menu}>Legal & Business Services</Link>
+                            </NavDropdown.Item>
+                           
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                               <Link to="digital-marketing" 
+                               className={headerStyle.sub_menu}>Digital Marketing</Link>
+                           </NavDropdown.Item>
+
+                           <NavDropdown.Item style={{paddingTop:'10px',paddingBottom:'10px'}}>
+                               <Link to="/event-management" 
+                               className={headerStyle.sub_menu}>Event Management</Link>
+                           </NavDropdown.Item>
+                           
                         </NavDropdown>
                         <Nav.Item>
                            <Nav.Link>
@@ -133,4 +108,12 @@ const Header = () =>{
     )
    
 }
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
+}
+
 export default Header

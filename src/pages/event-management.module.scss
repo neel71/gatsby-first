@@ -1,5 +1,5 @@
 .common{
-    height: 400px;
+    height: 290px;
     // border: 1px solid red;
     padding: 0px;
     text-align: center;
@@ -11,12 +11,13 @@
 .common:hover{
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
 }
+
 .heading{
     color: #323850;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     font-family: Lato, Poppins;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
 }
 
 .body{
@@ -24,10 +25,9 @@
     color: #696969;
     font-family: poppins;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 30px;
     text-align: justify;
-    
 }
 
 .interested_button{
@@ -35,7 +35,8 @@
     background-color: #C0C0C0;
     text-decoration:none;
     color:black;
-    padding: 12px 24px;
+    font-size:15px;
+    padding: 8px 20px;
     border-radius: 8px;
     border:1px solid #C0C0C0;
 }
@@ -53,7 +54,7 @@
     background-color:black;
     text-decoration:none;
     color:white;
-    padding: 11px 23px;
+    padding: 9px 23px;
     border-radius: 8px;
     border:1px solid black;
 }
@@ -68,24 +69,21 @@
 
 .pera__{
     
-    font-size: 25px;
+    font-size: 16px;
     font-family:montserrat;
-                // fontWeight: 'bold',
-    margin:30px;
-    // color:#696969;
+    margin:5px 0px 10px 0px;
     color:#2F4F4F;
     padding-bottom: 25px;
-    // text-shadow: 'rgba(0, 0, 0, 0.5) 0px 10px 12px'
-}
-.pera__head{
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    margin:30px 0px 10px 0px;
-    color:#323850;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
 }
 
+.pera__head{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin:20px 0px 10px 0px;
+    color:#323850;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+}
 .common:hover .check{
     display: none;
 }
@@ -97,7 +95,7 @@
     font-family: montserrat;
     font-size: 20px;
     font-weight: 600;
-    text-shadow: rgba(107, 70, 245, 0.5) 0px 10px 12px;
+    // text-shadow: rgba(107, 70, 245, 0.5) 0px 10px 12px;
     // color:#ec546b;
     color:#323850;
     
@@ -114,7 +112,7 @@
     font-weight: 600;
     font-size: 35px;
     font-family: Lato, Poppins;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
     // text-align: center;
     margin-top: 100px;
 }
@@ -132,18 +130,21 @@
 .div1:hover{
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
 }
-
+.image_item{
+    height: 15%;
+    width: auto;
+}
 .Far_m{
     color: #656565;
-    font-size: 17px;
-    margin: 0px 0px 35px 0px;
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
     font-family: poppins;
     text-align: justify;
 }
 .F_head{
     color: #323850;
     font-family: "Lato", Sans-serif;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
     
 }

@@ -6,9 +6,10 @@ import Layout from '../components/layout'
 import { Row, Col,Container,Form,Button} from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 import indexStyle from './index.module.scss'
-
+import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
+      <SEO title="Home" />
       <section class={indexStyle.sec1_row}>
         <div class={indexStyle.sec1_left}>
             <h3 class={indexStyle.sec1_title}>
@@ -19,7 +20,7 @@ const IndexPage = () => (
 
         <div class={indexStyle.sec1_right}>
             <img src={'../../home-page-02.png'} style={{
-                height: '658px',
+                height: '460px',
               width: '100%',
             }}/>
         </div>
@@ -39,15 +40,15 @@ const IndexPage = () => (
                  <p style={{
                 color: 'rgb(17, 22, 51)',
                 fontFamily: 'Roboto, sans-serif',
-                fontSize: '21px',
-                fontWeight: '600',
+                fontSize: '18px',
+                fontWeight: '550',
                 margin: '0px 0px 6px 0px',
               }}> <img src={'../../line.png'}/> Know Who We Are</p>
               </div>
               <div style={{
                 margin: '0px 0px 20px 0px',
                 fontFamily: 'Poppins, Sans-serif',
-                fontSize: '45px',
+                fontSize: '40px',
                 fontWeight: '700',
                 fontStretch: 'extra-expanded'
               }}>
@@ -55,8 +56,8 @@ const IndexPage = () => (
               </div>
               <div style={{
                 color: '#111633',
-                fontSize: '18px',
-                marginBottom: '20px',
+                fontSize: '15px',
+                marginBottom: '10px',
                 
               }}>
                 <p style={{
@@ -65,15 +66,13 @@ const IndexPage = () => (
                 lineHeight: '1.4',
                 fontFamily:'montserrat'}}>
                     <b>BLACKBOARD</b> is a Bangladeshi digital-marketing agency, powered by the best talented,
-                    dedicated and bangladeshi's first startup focused digital experts. We have a prominence for 
-                    innovation, creativity and professionalism and are proud of our record of delivering proven and phenomenal 
-                    result od our clients
+                    dedicated and bangladeshi's first startup focused digital experts.
                 </p>
               </div>
               <div style={{
                 color: '#111633',
-                fontSize: '18px',
-                marginBottom: '20px',
+                fontSize: '15px',
+                marginBottom: '10px',
                 fontFamily:'montserrat',
                 
               }}>
@@ -83,14 +82,13 @@ const IndexPage = () => (
                 lineHeight: '1.4',
                 fontFamily:'montserrat'}}>
                     We provide Web Design & Development, Graphics Design , Logo Design, Digital marketing,
-                    Legal & Business Support , Event Management and Training. We also provide any kind of on-demand
-                    work 
+                    Legal & Business Support , Event Management and Training. 
                   </p>
               </div>
               <div style={{
                 color: '#111633',
-                fontSize: '18px',
-                marginBottom: '20px',fontFamily:'montserrat',
+                fontSize: '15px',
+                marginBottom: '10px',fontFamily:'montserrat',
                 
               }}>
               <p style={{
@@ -99,18 +97,18 @@ const IndexPage = () => (
                 lineHeight: '1.4',
                 }}>
                     Over the years, we have provided specialist services to many clients in a varity of industries 
-                    including travel,e-commerce, software firm and service provider. Our clients range from startup 
-                    and small & medium-sized business through to local brands an house hold names such as 
-                    Nexkraft Ltd., Nexparc Ltd,. Share Out, Mind Shaper etc...
+                    including travel,e-commerce, software firm and service provider.
                 </p>   
               </div>
           </div>
 
           <div class={indexStyle.sec2_right}>
-              <span style={{paddingLeft: '35px'}} ><img src={'../../our-company.png'} width="650px" height="450px" style={{
+              <span style={{paddingLeft: '35px'}} ><img src={'../../our-company.png'} 
+              width="500px" height="320px" style={{
                 backgroundColor: 'black',
                 // opacity: '0.5',
                 position: 'absolute',
+                marginTop:'40px',
               }}/></span>  
           </div>
         </div>
@@ -127,7 +125,7 @@ const IndexPage = () => (
                 <div style={{color: '#111633',
                 margin: '0px 0px 1px 0px',
                 fontFamily:'Lato, Sans-serif',
-                fontSize: '46px',
+                fontSize: '40px',
                 fontWeight: '900',
                 wordSpacing: '-3px',}}>
                 
@@ -140,48 +138,28 @@ const IndexPage = () => (
                   textAlign:"center",
                   fontFamily:'montserrat'
                 }}>
-                  <Row>
-                    <Col md="3"></Col>
-                    <Col md="6">
-                      {/* We are BLACKBOARD, provides Web Design & Development, Graphics Design , 
-                      Logo Design, Digital marketing, Legal & Business Support , 
-                      Event Management and Training. We also provide any kind of on-demand work */}
-                    </Col>
-                    <Col md="3"></Col>
-                  </Row>
                </div>
 
-               <div style={{
-                  
-                  paddingBottom: '10px',
-                }}>
+               <div>
                   <img src={'../../dot_dot.png'}/>
                </div>
               </div>
               
-              <section style={{marginBottom:'-20px',paddingLeft:'170px',paddingRight:'10px',paddingTop:'30px'}}>
-                  <div
-                    style={{width:'100%',display:'flex',paddingBottom:'30px'}}
-                  >
-
-                      <div style={{
-                        width:'30%',
-                        
-                      }}
+              <section style={{marginBottom:'-20px',paddingLeft:'170px',paddingRight:'10px'}}>
+                  <div style={{width:'100%',display:'flex',paddingBottom:'0px'}}>
+                      <div style={{width:'30%',}}
                       className={indexStyle.col}>
                           <div style={{padding: '30px 0px 10px 10px',}}>
 
-
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
-                              className={indexStyle.circle}
-                              >
+                              <div style={{width:'25%',marginRight:'13px'}}
+                              className={indexStyle.circle}>
                                 <img src={'../../web-development.png'}
 
-                                  className ={indexStyle.image}
+                                  className ={indexStyle.image_item} 
                                 />
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Web Development</p>
                                  <p className={indexStyle.body}>
                                     The website is the face of an organization nowadays. 
@@ -191,10 +169,8 @@ const IndexPage = () => (
                               </div>
                             </div>
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
-                              // className={indexStyle.circle}
-                              >
-                                {/* <img src={'../../features-icon_img-3.png'}/> */}
+                              <div style={{width:'24%',marginRight:'13px'}}>
+                                
                               </div>
                               <div style={{width:'60%'}}>
                                 <div className={indexStyle.button}>
@@ -203,72 +179,67 @@ const IndexPage = () => (
                                  
                                  {/* <p className={indexStyle.body}>A small river named Duden flow by their
                               place and supplies with the necessary.</p> */}
-                              </div>                          
+                              </div>
+  
+                                                        
                             </div>
 
                          </div>
                       </div>
 
-                      <div style={{
-                        width:'30%',
-                        
-                      }}
+                      <div style={{ width:'30%'}}
                       className={indexStyle.col}>
                           <div style={{padding: '30px 0px 10px 10px',}}>
 
 
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               className={indexStyle.circle}
                               >
-                                <img src={'../../graphics-design.png'}/>
+                                <img src={'../../graphics-design.png'} className ={indexStyle.image_item} />
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Graphics Design</p>
                                  <p className={indexStyle.body}>
                                     Design the future of organization with Blackboard. The in-house professionals are waiting
-                                    for you to respond for you. Illustrations, Logo Design, Micrographics & so on are now handy on this.
+                                    for you. Illustrations, Logo Design, Micrographics & so on are now handy on this.
                                  </p>
                               </div>
                             </div>
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               // className={indexStyle.circle}
                               >
-                                {/* <img src={'../../features-icon_img-3.png'}/> */}
+                                
                               </div>
                               <div style={{width:'60%'}}>
                                 <div className={indexStyle.button}>
                                   <Link to="/graphics-design" className={indexStyle.Rbutton}> Learn more </Link>
                                 </div>
                                  
-                                 {/* <p className={indexStyle.body}>A small river named Duden flow by their
-                              place and supplies with the necessary.</p> */}
+                                 
                               </div>                          
                             </div>
 
                          </div>
                       </div>
 
-                      <div style={{
-                        width:'30%',
-                        
-                      }}
+                      <div style={{width:'30%',}}
                       className={indexStyle.col}>
                           <div style={{padding: '30px 0px 10px 10px',}}>
 
 
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               className={indexStyle.circle}
                               >
-                                <img src={'../../content-writing.png'}/>
+                                <img src={'../../content-writing.png'} className ={indexStyle.image_item} />
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Content Writing</p>
                                  <p className={indexStyle.body}>
                                     Stop crawling to get perfect writing. Features article, Short form article,
-                                      Listicles, Blog & many more are attainable in just one tap. 
+                                      Listicles, Blog & many more. 
                                     Grab your desired articles from this website whenever you need it.
                                  </p>
                               </div>
@@ -294,31 +265,25 @@ const IndexPage = () => (
 
                   </div>
 
-                  <div
-                    style={{width:'100%',display:'flex',paddingBottom:'30px'}}
-                  >
+                  <div style={{width:'100%',display:'flex',paddingBottom:'30px'}} >
 
-                      <div style={{
-                        width:'30%',
-                        
-                      }}
+                      <div style={{ width:'30%', }}
                       className={indexStyle.col}>
                           <div style={{padding: '30px 0px 10px 10px',}}>
 
 
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               className={indexStyle.circle}
                               >
-                                <img src={'../../legal-and-business.png'}/>
+                                <img src={'../../legal-and-business.png'} className ={indexStyle.image_item}/>
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Legal & Business</p>
                                  <p className={indexStyle.body}>
                                     A complete guideline on legal services related to individual 
                                     organization is now at your doorstep. We have brought a
-                                      complete helpline for you to reduce your stress being less 
-                                      ambiguous.
+                                      complete helpline for you to reduce your stress.
                                   </p>
                               </div>
                             </div>
@@ -350,17 +315,17 @@ const IndexPage = () => (
 
 
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               className={indexStyle.circle}
                               >
-                                <img src={'../../digital-marketing.png'}/>
+                                <img src={'../../digital-marketing.png'} className ={indexStyle.image_item}/>
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Digital Marketing</p>
                                  <p className={indexStyle.body}>
                                     Every impression counts When it comes to capture customer online. 
                                     Your online image is essential to the success of your business. 
-                                    We are here to help you and our skilled professionals are waiting.
+                                    our skilled professionals are waiting.
                                  </p>
                               </div>
                             </div>
@@ -392,12 +357,12 @@ const IndexPage = () => (
 
 
                             <div style={{width:'100%',display:'flex'}} >
-                              <div style={{width:'24%',marginRight:'13px'}}
+                              <div style={{width:'25%',marginRight:'13px'}}
                               className={indexStyle.circle}
                               >
-                                <img src={'../../event-management.png'}/>
+                                <img src={'../../event-management.png'} className ={indexStyle.image_item}/>
                               </div>
-                              <div style={{width:'60%'}}>
+                              <div style={{width:'65%'}}>
                                  <p className={indexStyle.heading}>Event Management</p>
                                  <p className={indexStyle.body}>
                                     Organize your events at any time you want! Get in here,
@@ -434,24 +399,23 @@ const IndexPage = () => (
           </div>
       </section>
   
-      <section style={{padding: '50px 0px 90px 0px',marginBottom:'10px'}}>
+      <section style={{padding: '0px 0px 90px 0px',marginBottom:'0px'}}>
 
-        <section style={{textAlign:'center',marginBottom:'20px'}}>
+        <section style={{textAlign:'center',marginBottom:'0px'}}>
           
           <div style={{marginBottom:'15px'}}>
             <p style={{
               color: '#111633',
-              margin: '0px 0px 15px 0px',
+              margin: '0px 0px 8px 0px',
               fontFamily: 'Lato, Sans-serif',
-              fontSize: '46px',
-              fontWeight: '900',
-              wordSpacing: '-3px',
+              fontSize: '40px',
+              fontWeight: '850',
             }}> Request a Call Back?</p>
           </div>
 
-          <div style={{marginBottom:'24px'}}>
-              <p style={{fontSize:'22px'}}>
-                Lets have a Cup od Coffee !!!
+          <div style={{marginBottom:'8px'}}>
+              <p style={{fontSize:'18px'}}>
+                Lets have a Cup of Coffee !!!
               </p>
           </div>
 
@@ -461,22 +425,21 @@ const IndexPage = () => (
         
         <section style={{width:'100%',display:'flex'}}>
           <div style={{paddingLeft:'150px',width:'70%'}}> 
-            <img src={'../../call-back-requeset.png'} width='100%' height='770px'/>
+            <img src={'../../call-back-requeset.png'} style={{width:'80%', height:'480px'}}/>
 
           </div>
           <div style={{width:'50%'}}> 
               <div className={indexStyle.allSides}>
                 <div style={{
                       color: 'rgb(1, 1, 1)',
-                      margin: '0px 0px 10px',
                       fontFamily: 'poppins, Lato',
-                      fontSize: '28px',
+                      fontSize: '20px',
                       fontWeight: '720',
                       paddingTop: '67px',
                       wordSpacing: '1px',
                       paddingLeft: '63px',
                 }}>
-                    Make an Appointment
+                    Make an appointment
                 </div>
                 <div style={{
                       fontFamily: 'Roboto, Sans-serif',
@@ -493,21 +456,16 @@ const IndexPage = () => (
                 
                 <div style={{
                       fontFamily: 'Roboto, Sans-serif',
-                      // fontSize: '15px',
-                      // fontWeight: '600',
-                      // textTransform: 'uppercase',
-                      // margin: '0px 0px 0px 0px',
-                      // color: 'rgba(0, 0, 0, 0.5)',
                       paddingLeft: '53px',
-                      paddingTop: '30px',
+                      paddingTop: '10px',
                 }}>
                   <form method="post" action="#">
                       
-                  <div style={{padding:'10px'}}>
+                      <div style={{padding:'10px 10px 0px 10px'}}>
                         <label style={{
                               display: 'block',
-                              fontWeight: '700',
-                              fontSize: '21px',
+                              fontWeight: '650',
+                              fontSize: '15px',
                               float: 'none',
                               lineHeight: '1.3',
                               margin: '0 0 4px 0',
@@ -526,10 +484,10 @@ const IndexPage = () => (
                                 borderRadius: '2px',
                                 
                                 color: '#333',
-                                fontSize: '16px',
+                                fontSize: '15px',
                                 border: '1px solid #ccc',
                                 padding:' 6px 10px',
-                                height: '38px',
+                                height: '30px',
                                 width: '100%',
                                 lineHeight:'1.3',
                                 
@@ -539,11 +497,11 @@ const IndexPage = () => (
 
                       </div>
                       
-                      <div style={{padding:'10px'}}>
+                      <div style={{padding:'10px 10px 0px 10px'}}>
                         <label style={{
-                              display: 'block',
-                              fontWeight: '700',
-                              fontSize: '21px',
+                             display: 'block',
+                              fontWeight: '650',
+                              fontSize: '15px',
                               float: 'none',
                               lineHeight: '1.3',
                               margin: '0 0 4px 0',
@@ -562,10 +520,10 @@ const IndexPage = () => (
                                 borderRadius: '2px',
                                 
                                 color: '#333',
-                                fontSize: '16px',
+                                fontSize: '15px',
                                 border: '1px solid #ccc',
                                 padding:' 6px 10px',
-                                height: '38px',
+                                height: '30px',
                                 width: '100%',
                                 lineHeight:'1.3',
                                 
@@ -575,11 +533,11 @@ const IndexPage = () => (
 
                       </div>
 
-                      <div style={{padding:'10px'}}>
+                      <div style={{padding:'10px 10px 0px 10px'}}>
                         <label style={{
                               display: 'block',
-                              fontWeight: '700',
-                              fontSize: '21px',
+                              fontWeight: '650',
+                              fontSize: '15px',
                               float: 'none',
                               lineHeight: '1.3',
                               margin: '0 0 4px 0',
@@ -598,10 +556,10 @@ const IndexPage = () => (
                                 borderRadius: '2px',
                                 
                                 color: '#333',
-                                fontSize: '16px',
+                                fontSize: '15px',
                                 border: '1px solid #ccc',
                                 padding:' 6px 10px',
-                                height: '38px',
+                                height: '30px',
                                 width: '100%',
                                 lineHeight:'1.3',
                                 
@@ -611,11 +569,11 @@ const IndexPage = () => (
 
                       </div>
 
-                      <div style={{padding:'10px',paddingTop:'25px'}}>
+                      <div style={{padding:'10px 10px 0px 10px',}}>
                         <label style={{
                               display: 'block',
-                              fontWeight: '700',
-                              fontSize: '21px',
+                              fontWeight: '650',
+                              fontSize: '15px',
                               float: 'none',
                               lineHeight: '1.3',
                               margin: '0 0 4px 0',
@@ -629,12 +587,12 @@ const IndexPage = () => (
                           width:'100%',
                           display: 'flex'
                          }}>
-                          <textarea name="message" id="message" rows="8" style={{
+                          <textarea name="message" id="message" rows="5" style={{
 
                                 backgroundColor: '#fff',             
                                   borderRadius: '2px',
                                   color: '#333',
-                                  fontSize: '16px',
+                                  fontSize: '15px',
                                   border: '1px solid #ccc',
                                   padding:' 6px 10px',
                                   width: '90%',
@@ -647,7 +605,7 @@ const IndexPage = () => (
                       <div style={{paddingLeft:'10px',paddingTop:'10px'}}>
 
                         <button type="submit" className={indexStyle.btn} style={{
-                          fontSize:'22px'
+                          fontSize:'18px'
                         }}>Submit</button>  
                       </div>
                       

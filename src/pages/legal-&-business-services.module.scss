@@ -1,5 +1,5 @@
 .common{
-    height: 400px;
+    height: 350px;
     // border: 1px solid red;
     padding: 0px;
     text-align: center;
@@ -11,12 +11,13 @@
 .common:hover{
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2)
 }
+
 .heading{
     color: #323850;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     font-family: Lato, Poppins;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 6px 7px;
 }
 
 .body{
@@ -24,7 +25,7 @@
     color: #696969;
     font-family: poppins;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -34,7 +35,8 @@
     background-color: #C0C0C0;
     text-decoration:none;
     color:black;
-    padding: 12px 24px;
+    font-size:15px;
+    padding: 8px 20px;
     border-radius: 8px;
     border:1px solid #C0C0C0;
 }
@@ -49,20 +51,22 @@
 
 .pera__{
     
-    font-size: 25px;
+    font-size: 16px;
     font-family:montserrat;
-                // fontWeight: 'bold',
-    margin:30px;
-    // color:#696969;
+    margin:5px 0px 10px 0px;
     color:#2F4F4F;
     padding-bottom: 25px;
-    // text-shadow: 'rgba(0, 0, 0, 0.5) 0px 10px 12px'
 }
+
 .pera__head{
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bold;
-    margin:30px 0px 10px 0px;
+    margin:20px 0px 10px 0px;
     color:#323850;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+    // text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 12px;
+}
+.image_item{
+    height: 15%;
+    width: auto;
 }

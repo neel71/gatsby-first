@@ -14,8 +14,9 @@ const ContactPage = () => (
 
     <div style={{backgroundColor:'#eff4f8'}}>
       <Header/>
+      <SEO title="Contact" />
       <section>
-      <SEO title="Home" />
+      
         <div>
             {/* <img src={'../../contact-bg-pattern.png'} style={{
               width:'100%',zIndex: '-1',

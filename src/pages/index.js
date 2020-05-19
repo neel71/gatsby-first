@@ -459,7 +459,7 @@ const IndexPage = () => (
                       paddingLeft: '53px',
                       paddingTop: '10px',
                 }}>
-                  <form method="post" name="Index_contact_form" data-netlify="true">
+                  <form name="Index_contact_form" method="post" data-netlify="true" netlify-honeypot="bot-field">
                       
                       <div style={{padding:'10px 10px 0px 10px'}}>
                         <label style={{

@@ -9,12 +9,13 @@ import contactStyle from './contact.module.scss'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import footerStyle from '../components/footer.module.scss'
-
+import SEO from '../components/seo'
 const ContactPage = () => (
 
     <div style={{backgroundColor:'#eff4f8'}}>
       <Header/>
       <section>
+      <SEO title="Home" />
         <div>
             {/* <img src={'../../contact-bg-pattern.png'} style={{
               width:'100%',zIndex: '-1',
@@ -43,7 +44,7 @@ const ContactPage = () => (
                 </div>
 
                 <div style={{width:"40%"}}>
-                    <Form method="post" name="contact_contact_form" data-netlify="true">
+                    <Form name="contact_contact_form" method="post" data-netlify="true" netlify-honeypot="bot-field">
                       <Form.Row>
                         <Form.Group as={Col} controlId="formGridEmail">
                           <Form.Label>FirstName</Form.Label>
@@ -92,7 +93,7 @@ const ContactPage = () => (
                         </Form.Group>
 
                           <Form.Group as={Col} id="formGridCheckbox">
-                          <Form.Check type="checkbox" label="Digital MArketing" />
+                          <Form.Check type="checkbox" label="Digital Marketing" />
                           </Form.Group>
 
                           <Form.Group as={Col} id="formGridCheckbox">

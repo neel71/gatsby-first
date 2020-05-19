@@ -43,7 +43,7 @@ const ContactPage = () => (
                 </div>
 
                 <div style={{width:"40%"}}>
-                    <Form>
+                    <Form method="post" name="contact_contact_form" data-netlify="true">
                       <Form.Row>
                         <Form.Group as={Col} controlId="formGridEmail">
                           <Form.Label>FirstName</Form.Label>

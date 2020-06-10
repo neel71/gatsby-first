@@ -607,9 +607,7 @@ const IndexPage = () => (
                         <button type="submit" className={indexStyle.btn} style={{
                           fontSize:'18px'
                         }}>Submit</button>  
-                      </div>
-                      
-                      
+                      </div> 
                   </form>
                 </div>
             
